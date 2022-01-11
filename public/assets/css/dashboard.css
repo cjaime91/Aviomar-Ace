@@ -1,0 +1,180 @@
+
+            #container {
+                height: 400px;
+            }
+
+            .highcharts-background {
+                fill: rgba(255, 255, 255, 0.363);
+            }
+
+            .highcharts-figure,
+            .highcharts-data-table table {
+                min-width: 320px;
+                max-width: 800px;
+                margin: 1em auto;
+            }
+
+            .highcharts-data-table table {
+                font-family: Verdana, sans-serif;
+                border-collapse: collapse;
+                border: 1px solid #EBEBEB;
+                margin: 10px auto;
+                text-align: center;
+                width: 100%;
+                max-width: 500px;
+            }
+
+            .highcharts-data-table caption {
+                padding: 1em 0;
+                font-size: 1.2em;
+                color: #555;
+            }
+
+            .highcharts-data-table th {
+                font-weight: 600;
+                padding: 0.5em;
+            }
+
+            .highcharts-data-table td,
+            .highcharts-data-table th,
+            .highcharts-data-table caption {
+                padding: 0.5em;
+            }
+
+            .highcharts-data-table thead tr,
+            .highcharts-data-table tr:nth-child(even) {
+                background: #f8f8f8;
+            }
+
+            .highcharts-data-table tr:hover {
+                background: #f1f7ff;
+            }
+
+            .widget-header-small>.widget-toolbar {
+                line-height: 29px;
+                width: 350px;
+            }
+
+            .av {
+                background-color: rgb(54, 122, 70);
+                color: rgb(255, 255, 255);
+            }
+
+            .second_av {
+                background-color: rgb(161, 243, 161);
+                color: rgb(0, 0, 0);
+                font: bold;
+            }
+
+            .ag {
+                background-color: rgb(0, 120, 136);
+                color: rgb(255, 255, 255);
+            }
+
+            .second_ag {
+                background-color: rgb(164, 205, 211);
+                color: rgb(0, 0, 0);
+                font: bold;
+            }
+
+            .dataTable>thead>tr>th.sorting_desc,
+            .dataTable>thead>tr>th.sorting_asc {
+                background-image: -webkit-linear-gradient(top, #274e7e 0%, #e3e7ed 100%);
+                background-image: -o-linear-gradient(top, #1a385e 0%, #1a385e 100%);
+                background-image: linear-gradient(to bottom, #0aa4b8c4 0%, #ffffffa8 100%);
+                background-repeat: repeat-x;
+                filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffeff3f8', endColorstr='#ffe3e7ed', GradientType=0);
+            }
+
+            .agente {
+                background-color: rgb(116, 116, 116);
+                color: white;
+                font-weight: bold;
+            }
+
+            .dataTables_info {
+                font-size: 14px;
+                text-align: right;
+                font-weight: bold;
+            }
+
+            .dataTables_scrollBody::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgb(82, 82, 82);
+                background-color: #F5F5F5;
+                border-radius: 10px;
+            }
+
+            .dataTables_scrollBody::-webkit-scrollbar {
+                width: 6px;
+                background-color: #F5F5F5;
+            }
+
+            .dataTables_scrollBody::-webkit-scrollbar-thumb {
+                background-color: rgb(82, 82, 82);
+                border-radius: 10px;
+            }
+
+            .main-container:before {
+                background-color: rgb(162, 178, 212);
+            }
+
+            .widget-main {
+                background-color: rgb(255, 250, 230);
+            }
+
+            .main-content {
+                padding-top: 3px;
+            }
+
+            table.dataTable>thead .sorting:before,
+            table.dataTable>thead .sorting_asc:before,
+            table.dataTable>thead .sorting_desc:before,
+            table.dataTable>thead .sorting_asc_disabled:before,
+            table.dataTable>thead .sorting_desc_disabled:before {
+                right: 1em;
+                content: "";
+            }
+
+            .table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .table td {
+                padding: 7px;
+                border: #000000 1px solid;
+            }
+
+            /* Define the default color for all the table rows */
+            .table tr {
+                background: #ffffff;
+            }
+
+            .table-hover tbody tr:hover td,
+            .table-hover tbody tr:hover th {
+                background-color: rgb(221, 164, 77);
+                font-weight: bold;
+            }
+
+            .btn {
+                font-weight: bold;
+            }
+
+            .widget-color-orange>.widget-header {
+                color: #4e4321 !important;
+                text-align: center;
+                background: rgb(245, 201, 115);
+            }
+
+            h2 {
+                font-weight: bold;
+            }
+
+            .widget-toolbar-dark {
+                background: #4440;
+            }
+
+            .widget-color-orange>.widget-header {
+                text-align: center;
+                background: linear-gradient(to bottom, #fff6dc 0%, #e6ac00 100%);
+            }

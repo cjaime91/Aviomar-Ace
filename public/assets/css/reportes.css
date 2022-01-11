@@ -1,0 +1,44 @@
+.main-container:before {
+    background-color: rgb(162, 178, 212);
+}
+
+.main-content {
+    padding-top: 3px;
+}
+
+.widget-main {
+    background: papayawhip;
+}
+
+.widget-color-blue>.widget-header {
+    background-image: linear-gradient(to bottom, #307ecc 0%, #163350 100%);
+}
+
+.widget-color-green>.widget-header {
+    background-image: linear-gradient(to bottom, #82af6f 0%, #2e4c21 100%);
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.col-sm-1 {
+    width: 10.333333%;
+}
+
+.btn-success,
+.btn-success:focus {
+    border-radius: 4px !important;
+    background-color: #4c7656 !important;
+    border-color: #4c7656;
+    font-weight: bold;
+}
+
+.btn-app.btn-primary,
+.btn-app.btn-primary.no-hover:hover,
+.btn-app.btn-primary.disabled:hover {
+
+    background-image: linear-gradient(to bottom, #ffffff 0%, #f1083e 100%) !important;
+
+}
